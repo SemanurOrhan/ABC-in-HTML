@@ -1,0 +1,620 @@
+<html>
+  <head>
+    
+  </head>
+  <body>
+<h1>👋 Hello World!</h1>
+<h1>Bu bir başlık.</h1>
+<article> Bu bir makale </article>
+
+<p>Bu paragrafta <m> ne olduğunu öğrenmediğim bir tag </m> bulunuyor.</p>
+<h3>Başlık boyutu olarak seviyeleri bulunur. Bu seviyeler 6 tanedir.</h3>
+<h6> Başlıklar ve boyutlarını makaleye göre ayarlarız.</h6>
+<p> Bir sitede başlıkları düzenli bir sistemde tasarlamak ekran okuyucsu için büyük önem arzeder. Bunun gibi tasarımsal kaygılar nedeniyle çalışanlar temel bir tasarım seçimiyle sitenin daha bir bütün ve semantik başarıya ulaşmasını sağlar. Estetik ve bütün bir görüntü için önemlidir. Kendi web siten için de bir tasarım ve belli kurallar çerçevesinde bütün oluşturursan daha profesyonel duracaktır.</p>
+<h4>Sıra italik ve kalınlıkta.</h4>
+<p> Bunlar vurgu ifadesidir. Kimi sözlü vurgu içerir kimi ise görsel olarak vurgu içeriri. Html bunu ayırmak için iki farklı kod kullanır.<i> burada yalnızca görsel olarak vurgulanmak istenen şeyi belirtiriz.</i> <em>burada ise sözsel vurgu için kullanılan italik vardır.</em> Okuyucu bunu farkedebilir. Bir örnek daha verelim burda favori kelimesi sözel bir vurgu ifade ederken kahve ifadesi görsel bir vurgudan ibarettir.Doğru olan da budur. Şimdi cümleyi yazalım: "Ben <em>favori</em> içeceğim olan <i>kahveyi</i> spariş ettim. "</p>
+<p> Bu vurgulşar içeriği dinleyenler için çok iyi sonuçlar vermektedir. Yanı kolaya kaçıp sadece birini kullanmak pek de kaliteli olmaz.</p>
+<p> Sıra geldi <strong>Kalın ifadelere</strong> Burada da görüldüğü gibi strong ifadesi oldukça çok dikkat çekmek için kullanılmaktadır. Bununda iki formu var. İkincisi ise <bold>şelinde yazılan dikkat çekmeyen, tarayıcı veya okuyucuyla ekstra bir anlam ifade etmek istemediğimizde </b> bunu kullanabiliriz. Öneri ise son çare olarak kullanmaktır.😉</p>
+<p> Bu eğitimi bitirmek için kendime 24 saat vermiştim sonrasında da eğitime ulaşamayacağım zaten.Lİnkedinde çünki. Neyse. Şöyleki daha 90 dk çalıştım ve sadece bu kadarı bitti. Birsürü özellik var daha. Yani yarım kalırsa yapacak bir şey yok. </p>
+<h4> <strong>Listelere</strong> Gelelim</h4>
+<p>(burda strong ifadesi işe yaramadı gibi neden bilmiyorum ama bir noktada çözülecektir herhalde.)</p>
+<p> Liste örneğinden ilerleyelim:
+  patates
+  soğan
+  domates
+  bunlar yanyana yazıl görünüyor.Liste gibi değil.Bunun için ;aşağıdaki li tagını kullanırız.Liste ögesi demektir.
+  <li>patates</li>
+  <li>soğan</li>
+  <li>domates</li>
+</p>
+<p>
+<h4>sırasız(ama listeli) liste için ul kullanırız.(Düşük bir cümle kabul.)</h4>
+<ul>
+  <li>patates</li>
+  <li>soğan</li>
+  <li>domates</li>
+</ul>
+</p>
+<p>
+<h4>Sıralı liste için ol kullanılır.</h4>
+<ol>
+  <li>patates</li>
+  <li>soğan</li>
+  <li>domates</li>
+</ol>
+</p>
+<p><strong>definition term,dt.</strong> Bunu kullanarak bir terimi ve bunun açıklamasını listeleyebiliriz. Açıklama için <strong>definition discription,dd </strong>kullanılır.
+  Tüm bu liste<strong> dl,definition list </strong>e sarılır.</p>
+<p>
+<dl>
+  <dt>
+    <li>Örnek olarak:</li>
+  </dt>
+  <dd>Bu cümleyi veriyorum.</dd>
+  <dt>
+    <li>Başka bir örnek de:</li>
+  </dt>
+  <dd>Bu cümledir."li" kısmı obsiyoneldir.Çıkartılırsa baştaki işaret kaldırılabilir.</dd>
+</dl>
+</p>
+
+<h4>Alıntılar</h4>
+<blockquote>
+  <p>Bu paragrafın bir alıntı olduğunu varsayıyoruz. Blockquote etiketi ile metnin bir alıntı olduğunu belirtmek için metni birkaç boşluk içieriden başlatıyor. Blok bağlamı yapıyor. Bunun işlevini p(paragraf) etiketine benzetebilirsiniz ancak aynı şey değiller. Bu alıntı şekli alıntının metin içinde geçmesi durumunda pek de işimiz yaramaz bu nedenle başka bir alıntı şekline bakalım.
+    <cite>-Yazar</cite> =bu metnin bir alıntı olduğunu göstermekte.
+  </p>
+</blockquote>
+<p>
+  Bu metinle paragraf içindeki bir alıntıyı nasıl gösterebileceğimize bakabiliriz. Tırnakk işareti kullanmak bir çözüm olabilir. Bunu manuel olarak yazmak yerine q(Quote) etiketi kullanılabilir. <q>Bunun bir alıntı cümlesi olduğunu varsayalım. <cite>-Yazar</cite> </q>Böylece metni bölmeden alıntıyı belirtebilmiş oluyoruz.
+</p>
+<h5>Tarihler ve Saatler</h5>
+<p> Tarihler için time tagını kullanabiliriz.<time>15 EKİM 2023</time> bunun farklı versiyornlarını da kullanmamızda bir sorun olmaz.
+</p>
+<p>Gelelim asıl saatin bilgisayar tarafından farkedilir olmasına. Bunun için bir formattan bahsedelim."elementname attributename='' " bu formüle göre <time datetime="2023-04-02"> 2 Nisan, 2023 </time> şeklinde tarihi belirtebiliriz. <strong>peki ya saatler</strong> Saatlerde nasıl yaparız. Yine aynı format. <time dateime="05:15"> 5:15 am</time> gibi yazabiliriz. Dikkat etmeliyiz ki günü 24 saat şeklinde ifade etmeliyiz. <time datetime="12:30"> halfpast noon </time> gibi. Peki saatlerin farklı olduğu anlar için ne yapılabilir. Meseleyi şöyle açıklayayım.<time datetime="23:30-05:00">6:30 pm in New York </time>gibi .
+  <strong>hem saat hem de tarih belirtmemiz gerekirse ne yapacağız</strong>
+  Bunun için ideal şekilde formattan yararlanabiliriz.
+  iki birim arasına T koyabiliriz veya araya bir boşluk bırakırız. Bunun gibi:
+  <ime datetime="2023-10-15 21:00">Sunday, Oct 15th at 9p</time> . Datetime özniteliğinde zamanı konuma göre semantik olarak ilerlettiğimizde bilgisayar bunu anlayabilir.
+</p>
+<h3>Metnimizin içine bir Code eklemek istersek</h3>
+<p>
+  Örneğin buradabir metin için başlık atmayı göstereceğim ancak <strong> yazdığımda bunu işlediğini görüyorum.</strong> Bunu engellemek için <code>{if(color=m01a05s;)}</code> yazısına yaptığı gibi yapmak işe yaramaz.(Burası da kodları metin gibi görünmekten kurtarmanın başka bir yoludur.) Peki burdaki code yazılarını göstermek için ne yapacağız. Burda HTML ENTİTİES (html varlığı) denilen şeylerden kullanırız. &lt; küçüktür, &gt; büyüktür işaretine kullanılır.
+  Bu şekilde yazarsak kodumuzu işlemeden metin olarak ifade edebiliriz.Birkaç örnek listeleyelim:
+  <li>&lt;code&gt;</li>
+  <li><code>&lt;code&gt;</code></li>
+</p>
+<h4>Boşlukları ve satır aralarını göremiyorum!(ANLAMSAL BİÇİMLENDİRME)</h4>
+<p>
+  Bu durum oldukça doğaldır. Tarayıcı boşlukları atlar. İhtiyaç duyduğumuzda ,örneğin bir şiir eklememiz gerektiğinde ne yapacağız o zaman? Satır sonu eklemek için &lt;br&gt;(break line) kullanabiliriz.<br>
+  Bu tag için açılş ve kapanış eklememiz gerekmez. <br>
+  Tek bir etikettir.<br>
+  Satır sonuna koymamız yeterlidir.<br>
+  <br>
+  iki paragraf arasında tek başına da kullanılabilir.<br>
+  Yine de bazı durumlarda r etiketi yeterli gelmeyebilir; kelimeler arası boşlukla, satır başlama boşlukları gibi. Yine bir şiirden örnek verelim:<br>
+  Şiirimiz
+  oldukça
+  dağınık yazılmış
+  bir şiir
+  olsun.
+  <br>
+  Metin gibi görünüyor. Bunu düzeltmek için (boşluğu içeriğin içine koymak için) bir ön etiketle sağlarız.&lt;pre&gt; etiketi ile tarayıcının etiket açılış ve kapanışı arasındaki her boşluğu dikkate almasını sağlamış oluruz.<br>
+  Bu etiket adı üstünde bir ön etiket yani başa koymalıyız.Şimdi şiirimizde deneyelim.<br>
+<pre>
+  Şiirimiz
+           oldukça 
+  dağınık          yazılmış
+        bir                 şiir
+  olsun.
+  </pre><br>
+göründüğü gibi.
+<pre>
+  <code>
+  bazen     {codes;
+                &lt; ve daha fazlası;&gt;
+                            için gerekli ifadelerde birleştirilebilir;
+                            }
+                            </code>
+                            </pre>
+</p>
+<h3>ALT VE ÜST SİMGELER ,KÜÇÜK METİNLER</h3>
+<p>
+  Dipnotlar, matematiksel işlemlerde sayı üsleri, Kimyada molekül isimleri vb.<br>
+  bu durumlar için subscripts &lt;sub&gt;ve superscripts&lt;sup&gt; kullanılır.<br>
+
+  H<sub>2</sub>O, footnote<sup>3</sup><br>
+  küçük metinler,ayrıntılar için &lt;small&gt; kullanılır.<br>
+  <small> (Matematiksel işlemler için MathML daha sağlam yapıdadır.)</small><br>
+
+</p>
+<h4>GLOBAL ATTRIBUTE</h4>
+
+<p>
+  Genel özniteliklerden birkaçını buraya not düşelim.
+  <li>&lt;p class="intro"&gt; bu öge ile sınıflandırdığımız bir veriyi CSSde 'şu sınıfa uygula' gibi kolaylıklar için uygulayabiliriz.(p etiketini kapatmayı unutmayın)
+  </li><br>
+  <li>
+    &lt;p class="intro" id="article-intro"&gt; bu öge de bir kez benzersiz bir ad tanımlamamızı sağlar.JS de belli bir bağlantıyı adreslemek için kullanılabilir.(p etiketini kapatmayı unutmayın)
+  </li><br>
+  <li>
+    &lt;p lang="en-GB"&gt; bu öge ile metinde yer alan dilin British English dilinde yazıldığını dillerin kısa ifadesiyle bildirmiş olduk.
+  </li><br>
+  <li>
+    &lt;p dir="ltr"&gt; bu öge dilin yazılış <i>yönünü</i> left to right (soldan sağa) şeklinde olduğunu, &lt;p dir="rtl"&gt; ise sağdan sola (right to left)olduğunu belirtmemizi sağlar.
+  </li><br>
+  
+</p><h1>👋 Hello World!</h1>
+<h1>Bu bir başlık.</h1>
+<article> Bu bir makale </article>
+
+<p>Bu paragrafta <m> ne olduğunu öğrenmediğim bir tag </m> bulunuyor.</p>
+<h3>Başlık boyutu olarak seviyeleri bulunur. Bu seviyeler 6 tanedir.</h3>
+<h6> Başlıklar ve boyutlarını makaleye göre ayarlarız.</h6>
+<p> Bir sitede başlıkları düzenli bir sistemde tasarlamak ekran okuyucsu için büyük önem arzeder. Bunun gibi tasarımsal kaygılar nedeniyle çalışanlar temel bir tasarım seçimiyle sitenin daha bir bütün ve semantik başarıya ulaşmasını sağlar. Estetik ve bütün bir görüntü için önemlidir. Kendi web siten için de bir tasarım ve belli kurallar çerçevesinde bütün oluşturursan daha profesyonel duracaktır.</p>
+<h4>Sıra italik ve kalınlıkta.</h4>
+<p> Bunlar vurgu ifadesidir. Kimi sözlü vurgu içerir kimi ise görsel olarak vurgu içeriri. Html bunu ayırmak için iki farklı kod kullanır.<i> burada yalnızca görsel olarak vurgulanmak istenen şeyi belirtiriz.</i> <em>burada ise sözsel vurgu için kullanılan italik vardır.</em> Okuyucu bunu farkedebilir. Bir örnek daha verelim burda favori kelimesi sözel bir vurgu ifade ederken kahve ifadesi görsel bir vurgudan ibarettir.Doğru olan da budur. Şimdi cümleyi yazalım: "Ben <em>favori</em> içeceğim olan <i>kahveyi</i> spariş ettim. "</p>
+<p> Bu vurgulşar içeriği dinleyenler için çok iyi sonuçlar vermektedir. Yanı kolaya kaçıp sadece birini kullanmak pek de kaliteli olmaz.</p>
+<p> Sıra geldi <strong>Kalın ifadelere</strong> Burada da görüldüğü gibi strong ifadesi oldukça çok dikkat çekmek için kullanılmaktadır. Bununda iki formu var. İkincisi ise <bold>şelinde yazılan dikkat çekmeyen, tarayıcı veya okuyucuyla ekstra bir anlam ifade etmek istemediğimizde </b> bunu kullanabiliriz. Öneri ise son çare olarak kullanmaktır.😉</p>
+<p> Bu eğitimi bitirmek için kendime 24 saat vermiştim sonrasında da eğitime ulaşamayacağım zaten.Lİnkedinde çünki. Neyse. Şöyleki daha 90 dk çalıştım ve sadece bu kadarı bitti. Birsürü özellik var daha. Yani yarım kalırsa yapacak bir şey yok. </p>
+<h4> <strong>Listelere</strong> Gelelim</h4>
+<p>(burda strong ifadesi işe yaramadı gibi neden bilmiyorum ama bir noktada çözülecektir herhalde.)</p>
+<p> Liste örneğinden ilerleyelim:
+  patates
+  soğan
+  domates
+  bunlar yanyana yazıl görünüyor.Liste gibi değil.Bunun için ;aşağıdaki li tagını kullanırız.Liste ögesi demektir.
+  <li>patates</li>
+  <li>soğan</li>
+  <li>domates</li>
+</p>
+<p>
+<h4>sırasız(ama listeli) liste için ul kullanırız.(Düşük bir cümle kabul.)</h4>
+<ul>
+  <li>patates</li>
+  <li>soğan</li>
+  <li>domates</li>
+</ul>
+</p>
+<p>
+<h4>Sıralı liste için ol kullanılır.</h4>
+<ol>
+  <li>patates</li>
+  <li>soğan</li>
+  <li>domates</li>
+</ol>
+</p>
+<p><strong>definition term,dt.</strong> Bunu kullanarak bir terimi ve bunun açıklamasını listeleyebiliriz. Açıklama için <strong>definition discription,dd </strong>kullanılır.
+  Tüm bu liste<strong> dl,definition list </strong>e sarılır.</p>
+<p>
+<dl>
+  <dt>
+    <li>Örnek olarak:</li>
+  </dt>
+  <dd>Bu cümleyi veriyorum.</dd>
+  <dt>
+    <li>Başka bir örnek de:</li>
+  </dt>
+  <dd>Bu cümledir."li" kısmı obsiyoneldir.Çıkartılırsa baştaki işaret kaldırılabilir.</dd>
+</dl>
+</p>
+
+<h4>Alıntılar</h4>
+<blockquote>
+  <p>Bu paragrafın bir alıntı olduğunu varsayıyoruz. Blockquote etiketi ile metnin bir alıntı olduğunu belirtmek için metni birkaç boşluk içieriden başlatıyor. Blok bağlamı yapıyor. Bunun işlevini p(paragraf) etiketine benzetebilirsiniz ancak aynı şey değiller. Bu alıntı şekli alıntının metin içinde geçmesi durumunda pek de işimiz yaramaz bu nedenle başka bir alıntı şekline bakalım.
+    <cite>-Yazar</cite> =bu metnin bir alıntı olduğunu göstermekte.
+  </p>
+</blockquote>
+<p>
+  Bu metinle paragraf içindeki bir alıntıyı nasıl gösterebileceğimize bakabiliriz. Tırnakk işareti kullanmak bir çözüm olabilir. Bunu manuel olarak yazmak yerine q(Quote) etiketi kullanılabilir. <q>Bunun bir alıntı cümlesi olduğunu varsayalım. <cite>-Yazar</cite> </q>Böylece metni bölmeden alıntıyı belirtebilmiş oluyoruz.
+</p>
+<h5>Tarihler ve Saatler</h5>
+<p> Tarihler için time tagını kullanabiliriz.<time>15 EKİM 2023</time> bunun farklı versiyornlarını da kullanmamızda bir sorun olmaz.
+</p>
+<p>Gelelim asıl saatin bilgisayar tarafından farkedilir olmasına. Bunun için bir formattan bahsedelim."elementname attributename='' " bu formüle göre <time datetime="2023-04-02"> 2 Nisan, 2023 </time> şeklinde tarihi belirtebiliriz. <strong>peki ya saatler</strong> Saatlerde nasıl yaparız. Yine aynı format. <time dateime="05:15"> 5:15 am</time> gibi yazabiliriz. Dikkat etmeliyiz ki günü 24 saat şeklinde ifade etmeliyiz. <time datetime="12:30"> halfpast noon </time> gibi. Peki saatlerin farklı olduğu anlar için ne yapılabilir. Meseleyi şöyle açıklayayım.<time datetime="23:30-05:00">6:30 pm in New York </time>gibi .
+  <strong>hem saat hem de tarih belirtmemiz gerekirse ne yapacağız</strong>
+  Bunun için ideal şekilde formattan yararlanabiliriz.
+  iki birim arasına T koyabiliriz veya araya bir boşluk bırakırız. Bunun gibi:
+  <ime datetime="2023-10-15 21:00">Sunday, Oct 15th at 9p</time> . Datetime özniteliğinde zamanı konuma göre semantik olarak ilerlettiğimizde bilgisayar bunu anlayabilir.
+</p>
+<h3>Metnimizin içine bir Code eklemek istersek</h3>
+<p>
+  Örneğin buradabir metin için başlık atmayı göstereceğim ancak <strong> yazdığımda bunu işlediğini görüyorum.</strong> Bunu engellemek için <code>{if(color=m01a05s;)}</code> yazısına yaptığı gibi yapmak işe yaramaz.(Burası da kodları metin gibi görünmekten kurtarmanın başka bir yoludur.) Peki burdaki code yazılarını göstermek için ne yapacağız. Burda HTML ENTİTİES (html varlığı) denilen şeylerden kullanırız. &lt; küçüktür, &gt; büyüktür işaretine kullanılır.
+  Bu şekilde yazarsak kodumuzu işlemeden metin olarak ifade edebiliriz.Birkaç örnek listeleyelim:
+  <li>&lt;code&gt;</li>
+  <li><code>&lt;code&gt;</code></li>
+</p>
+<h4>Boşlukları ve satır aralarını göremiyorum!(ANLAMSAL BİÇİMLENDİRME)</h4>
+<p>
+  Bu durum oldukça doğaldır. Tarayıcı boşlukları atlar. İhtiyaç duyduğumuzda ,örneğin bir şiir eklememiz gerektiğinde ne yapacağız o zaman? Satır sonu eklemek için &lt;br&gt;(break line) kullanabiliriz.<br>
+  Bu tag için açılş ve kapanış eklememiz gerekmez. <br>
+  Tek bir etikettir.<br>
+  Satır sonuna koymamız yeterlidir.<br>
+  <br>
+  iki paragraf arasında tek başına da kullanılabilir.<br>
+  Yine de bazı durumlarda r etiketi yeterli gelmeyebilir; kelimeler arası boşlukla, satır başlama boşlukları gibi. Yine bir şiirden örnek verelim:<br>
+  Şiirimiz
+  oldukça
+  dağınık yazılmış
+  bir şiir
+  olsun.
+  <br>
+  Metin gibi görünüyor. Bunu düzeltmek için (boşluğu içeriğin içine koymak için) bir ön etiketle sağlarız.&lt;pre&gt; etiketi ile tarayıcının etiket açılış ve kapanışı arasındaki her boşluğu dikkate almasını sağlamış oluruz.<br>
+  Bu etiket adı üstünde bir ön etiket yani başa koymalıyız.Şimdi şiirimizde deneyelim.<br>
+<pre>
+  Şiirimiz
+           oldukça 
+  dağınık          yazılmış
+        bir                 şiir
+  olsun.
+  </pre><br>
+göründüğü gibi.
+<pre>
+  <code>
+  bazen     {codes;
+                &lt; ve daha fazlası;&gt;
+                            için gerekli ifadelerde birleştirilebilir;
+                            }
+                            </code>
+                            </pre>
+</p>
+<h3>ALT VE ÜST SİMGELER ,KÜÇÜK METİNLER</h3>
+<p>
+  Dipnotlar, matematiksel işlemlerde sayı üsleri, Kimyada molekül isimleri vb.<br>
+  bu durumlar için subscripts &lt;sub&gt;ve superscripts&lt;sup&gt; kullanılır.<br>
+
+  H<sub>2</sub>O, footnote<sup>3</sup><br>
+  küçük metinler,ayrıntılar için &lt;small&gt; kullanılır.<br>
+  <small> (Matematiksel işlemler için MathML daha sağlam yapıdadır.)</small><br>
+
+</p>
+<h4>GLOBAL ATTRIBUTE</h4>
+
+<p>
+  Genel özniteliklerden birkaçını buraya not düşelim.
+  <li>&lt;p class="intro"&gt; bu öge ile sınıflandırdığımız bir veriyi CSSde 'şu sınıfa uygula' gibi kolaylıklar için uygulayabiliriz.(p etiketini kapatmayı unutmayın)
+  </li><br>
+  <li>
+    &lt;p class="intro" id="article-intro"&gt; bu öge de bir kez benzersiz bir ad tanımlamamızı sağlar.JS de belli bir bağlantıyı adreslemek için kullanılabilir.(p etiketini kapatmayı unutmayın)
+  </li><br>
+  <li>
+    &lt;p lang="en-GB"&gt; bu öge ile metinde yer alan dilin British English dilinde yazıldığını dillerin kısa ifadesiyle bildirmiş olduk.
+  </li><br>
+  <li>
+    &lt;p dir="ltr"&gt; bu öge dilin yazılış <i>yönünü</i> left to right (soldan sağa) şeklinde olduğunu, &lt;p dir="rtl"&gt; ise sağdan sola (right to left)olduğunu belirtmemizi sağlar.
+  </li><br>
+  
+</p>
+<p> width ile:</p>
+<img width="250" src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=600"></img>
+<p> height ile:</p>
+<img height="250" src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=600"></img>
+<p> Resim bulunamadı hatası eklendiğinde:</p>
+<img alt="Resim bulunamadı!" height="250" src="https://images.pexes.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w"></img>
+<li>
+  _ResimGibi_ekleme_yapılabilir.
+  <br>
+  <img height="250" src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=600"></img>
+</li>
+
+<h1>👋 Hello World!</h1>
+<h1>Bu bir başlık.</h1>
+<article> Bu bir makale </article>
+
+<p>Bu paragrafta <m> ne olduğunu öğrenmediğim bir tag </m> bulunuyor.</p>
+<h3>Başlık boyutu olarak seviyeleri bulunur. Bu seviyeler 6 tanedir.</h3>
+<h6> Başlıklar ve boyutlarını makaleye göre ayarlarız.</h6>
+<p> Bir sitede başlıkları düzenli bir sistemde tasarlamak ekran okuyucsu için büyük önem arzeder. Bunun gibi tasarımsal kaygılar nedeniyle çalışanlar temel bir tasarım seçimiyle sitenin daha bir bütün ve semantik başarıya ulaşmasını sağlar. Estetik ve bütün bir görüntü için önemlidir. Kendi web siten için de bir tasarım ve belli kurallar çerçevesinde bütün oluşturursan daha profesyonel duracaktır.</p>
+<h4>Sıra italik ve kalınlıkta.</h4>
+<p> Bunlar vurgu ifadesidir. Kimi sözlü vurgu içerir kimi ise görsel olarak vurgu içeriri. Html bunu ayırmak için iki farklı kod kullanır.<i> burada yalnızca görsel olarak vurgulanmak istenen şeyi belirtiriz.</i> <em>burada ise sözsel vurgu için kullanılan italik vardır.</em> Okuyucu bunu farkedebilir. Bir örnek daha verelim burda favori kelimesi sözel bir vurgu ifade ederken kahve ifadesi görsel bir vurgudan ibarettir.Doğru olan da budur. Şimdi cümleyi yazalım: "Ben <em>favori</em> içeceğim olan <i>kahveyi</i> spariş ettim. "</p>
+<p> Bu vurgulşar içeriği dinleyenler için çok iyi sonuçlar vermektedir. Yanı kolaya kaçıp sadece birini kullanmak pek de kaliteli olmaz.</p>
+<p> Sıra geldi <strong>Kalın ifadelere</strong> Burada da görüldüğü gibi strong ifadesi oldukça çok dikkat çekmek için kullanılmaktadır. Bununda iki formu var. İkincisi ise <bold>şelinde yazılan dikkat çekmeyen, tarayıcı veya okuyucuyla ekstra bir anlam ifade etmek istemediğimizde </b> bunu kullanabiliriz. Öneri ise son çare olarak kullanmaktır.😉</p>
+<p> Bu eğitimi bitirmek için kendime 24 saat vermiştim sonrasında da eğitime ulaşamayacağım zaten.Lİnkedinde çünki. Neyse. Şöyleki daha 90 dk çalıştım ve sadece bu kadarı bitti. Birsürü özellik var daha. Yani yarım kalırsa yapacak bir şey yok. </p>
+<h4> <strong>Listelere</strong> Gelelim</h4>
+<p>(burda strong ifadesi işe yaramadı gibi neden bilmiyorum ama bir noktada çözülecektir herhalde.)</p>
+<p> Liste örneğinden ilerleyelim:
+  patates
+  soğan
+  domates
+  bunlar yanyana yazıl görünüyor.Liste gibi değil.Bunun için ;aşağıdaki li tagını kullanırız.Liste ögesi demektir.
+  <li>patates</li>
+  <li>soğan</li>
+  <li>domates</li>
+</p>
+<p>
+<h4>sırasız(ama listeli) liste için ul kullanırız.(Düşük bir cümle kabul.)</h4>
+<ul>
+  <li>patates</li>
+  <li>soğan</li>
+  <li>domates</li>
+</ul>
+</p>
+<p>
+<h4>Sıralı liste için ol kullanılır.</h4>
+<ol>
+  <li>patates</li>
+  <li>soğan</li>
+  <li>domates</li>
+</ol>
+</p>
+<p><strong>definition term,dt.</strong> Bunu kullanarak bir terimi ve bunun açıklamasını listeleyebiliriz. Açıklama için <strong>definition discription,dd </strong>kullanılır.
+  Tüm bu liste<strong> dl,definition list </strong>e sarılır.</p>
+<p>
+<dl>
+  <dt>
+    <li>Örnek olarak:</li>
+  </dt>
+  <dd>Bu cümleyi veriyorum.</dd>
+  <dt>
+    <li>Başka bir örnek de:</li>
+  </dt>
+  <dd>Bu cümledir."li" kısmı obsiyoneldir.Çıkartılırsa baştaki işaret kaldırılabilir.</dd>
+</dl>
+</p>
+
+<h4>Alıntılar</h4>
+<blockquote>
+  <p>Bu paragrafın bir alıntı olduğunu varsayıyoruz. Blockquote etiketi ile metnin bir alıntı olduğunu belirtmek için metni birkaç boşluk içieriden başlatıyor. Blok bağlamı yapıyor. Bunun işlevini p(paragraf) etiketine benzetebilirsiniz ancak aynı şey değiller. Bu alıntı şekli alıntının metin içinde geçmesi durumunda pek de işimiz yaramaz bu nedenle başka bir alıntı şekline bakalım.
+    <cite>-Yazar</cite> =bu metnin bir alıntı olduğunu göstermekte.
+  </p>
+</blockquote>
+<p>
+  Bu metinle paragraf içindeki bir alıntıyı nasıl gösterebileceğimize bakabiliriz. Tırnakk işareti kullanmak bir çözüm olabilir. Bunu manuel olarak yazmak yerine q(Quote) etiketi kullanılabilir. <q>Bunun bir alıntı cümlesi olduğunu varsayalım. <cite>-Yazar</cite> </q>Böylece metni bölmeden alıntıyı belirtebilmiş oluyoruz.
+</p>
+<h5>Tarihler ve Saatler</h5>
+<p> Tarihler için time tagını kullanabiliriz.<time>15 EKİM 2023</time> bunun farklı versiyornlarını da kullanmamızda bir sorun olmaz.
+</p>
+<p>Gelelim asıl saatin bilgisayar tarafından farkedilir olmasına. Bunun için bir formattan bahsedelim."elementname attributename='' " bu formüle göre <time datetime="2023-04-02"> 2 Nisan, 2023 </time> şeklinde tarihi belirtebiliriz. <strong>peki ya saatler</strong> Saatlerde nasıl yaparız. Yine aynı format. <time dateime="05:15"> 5:15 am</time> gibi yazabiliriz. Dikkat etmeliyiz ki günü 24 saat şeklinde ifade etmeliyiz. <time datetime="12:30"> halfpast noon </time> gibi. Peki saatlerin farklı olduğu anlar için ne yapılabilir. Meseleyi şöyle açıklayayım.<time datetime="23:30-05:00">6:30 pm in New York </time>gibi .
+  <strong>hem saat hem de tarih belirtmemiz gerekirse ne yapacağız</strong>
+  Bunun için ideal şekilde formattan yararlanabiliriz.
+  iki birim arasına T koyabiliriz veya araya bir boşluk bırakırız. Bunun gibi:
+  <ime datetime="2023-10-15 21:00">Sunday, Oct 15th at 9p</time> . Datetime özniteliğinde zamanı konuma göre semantik olarak ilerlettiğimizde bilgisayar bunu anlayabilir.
+</p>
+<h3>Metnimizin içine bir Code eklemek istersek</h3>
+<p>
+  Örneğin buradabir metin için başlık atmayı göstereceğim ancak <strong> yazdığımda bunu işlediğini görüyorum.</strong> Bunu engellemek için <code>{if(color=m01a05s;)}</code> yazısına yaptığı gibi yapmak işe yaramaz.(Burası da kodları metin gibi görünmekten kurtarmanın başka bir yoludur.) Peki burdaki code yazılarını göstermek için ne yapacağız. Burda HTML ENTİTİES (html varlığı) denilen şeylerden kullanırız. &lt; küçüktür, &gt; büyüktür işaretine kullanılır.
+  Bu şekilde yazarsak kodumuzu işlemeden metin olarak ifade edebiliriz.Birkaç örnek listeleyelim:
+  <li>&lt;code&gt;</li>
+  <li><code>&lt;code&gt;</code></li>
+</p>
+<h4>Boşlukları ve satır aralarını göremiyorum!(ANLAMSAL BİÇİMLENDİRME)</h4>
+<p>
+  Bu durum oldukça doğaldır. Tarayıcı boşlukları atlar. İhtiyaç duyduğumuzda ,örneğin bir şiir eklememiz gerektiğinde ne yapacağız o zaman? Satır sonu eklemek için &lt;br&gt;(break line) kullanabiliriz.<br>
+  Bu tag için açılş ve kapanış eklememiz gerekmez. <br>
+  Tek bir etikettir.<br>
+  Satır sonuna koymamız yeterlidir.<br>
+  <br>
+  iki paragraf arasında tek başına da kullanılabilir.<br>
+  Yine de bazı durumlarda r etiketi yeterli gelmeyebilir; kelimeler arası boşlukla, satır başlama boşlukları gibi. Yine bir şiirden örnek verelim:<br>
+  Şiirimiz
+  oldukça
+  dağınık yazılmış
+  bir şiir
+  olsun.
+  <br>
+  Metin gibi görünüyor. Bunu düzeltmek için (boşluğu içeriğin içine koymak için) bir ön etiketle sağlarız.&lt;pre&gt; etiketi ile tarayıcının etiket açılış ve kapanışı arasındaki her boşluğu dikkate almasını sağlamış oluruz.<br>
+  Bu etiket adı üstünde bir ön etiket yani başa koymalıyız.Şimdi şiirimizde deneyelim.<br>
+<pre>
+  Şiirimiz
+           oldukça 
+  dağınık          yazılmış
+        bir                 şiir
+  olsun.
+  </pre><br>
+göründüğü gibi.
+<pre>
+  <code>
+  bazen     {codes;
+                &lt; ve daha fazlası;&gt;
+                            için gerekli ifadelerde birleştirilebilir;
+                            }
+                            </code>
+                            </pre>
+</p>
+<h3>ALT VE ÜST SİMGELER ,KÜÇÜK METİNLER</h3>
+<p>
+  Dipnotlar, matematiksel işlemlerde sayı üsleri, Kimyada molekül isimleri vb.<br>
+  bu durumlar için subscripts &lt;sub&gt;ve superscripts&lt;sup&gt; kullanılır.<br>
+
+  H<sub>2</sub>O, footnote<sup>3</sup><br>
+  küçük metinler,ayrıntılar için &lt;small&gt; kullanılır.<br>
+  <small> (Matematiksel işlemler için MathML daha sağlam yapıdadır.)</small><br>
+
+</p>
+<h4>GLOBAL ATTRIBUTE</h4>
+
+<p>
+  Genel özniteliklerden birkaçını buraya not düşelim.
+  <li>&lt;p class="intro"&gt; bu öge ile sınıflandırdığımız bir veriyi CSSde 'şu sınıfa uygula' gibi kolaylıklar için uygulayabiliriz.(p etiketini kapatmayı unutmayın)
+  </li><br>
+  <li>
+    &lt;p class="intro" id="article-intro"&gt; bu öge de bir kez benzersiz bir ad tanımlamamızı sağlar.JS de belli bir bağlantıyı adreslemek için kullanılabilir.(p etiketini kapatmayı unutmayın)
+  </li><br>
+  <li>
+    &lt;p lang="en-GB"&gt; bu öge ile metinde yer alan dilin British English dilinde yazıldığını dillerin kısa ifadesiyle bildirmiş olduk.
+  </li><br>
+  <li>
+    &lt;p dir="ltr"&gt; bu öge dilin yazılış <i>yönünü</i> left to right (soldan sağa) şeklinde olduğunu, &lt;p dir="rtl"&gt; ise sağdan sola (right to left)olduğunu belirtmemizi sağlar.
+  </li><br>
+  
+</p><h1>👋 Hello World!</h1>
+<h1>Bu bir başlık.</h1>
+<article> Bu bir makale </article>
+
+<p>Bu paragrafta <m> ne olduğunu öğrenmediğim bir tag </m> bulunuyor.</p>
+<h3>Başlık boyutu olarak seviyeleri bulunur. Bu seviyeler 6 tanedir.</h3>
+<h6> Başlıklar ve boyutlarını makaleye göre ayarlarız.</h6>
+<p> Bir sitede başlıkları düzenli bir sistemde tasarlamak ekran okuyucsu için büyük önem arzeder. Bunun gibi tasarımsal kaygılar nedeniyle çalışanlar temel bir tasarım seçimiyle sitenin daha bir bütün ve semantik başarıya ulaşmasını sağlar. Estetik ve bütün bir görüntü için önemlidir. Kendi web siten için de bir tasarım ve belli kurallar çerçevesinde bütün oluşturursan daha profesyonel duracaktır.</p>
+<h4>Sıra italik ve kalınlıkta.</h4>
+<p> Bunlar vurgu ifadesidir. Kimi sözlü vurgu içerir kimi ise görsel olarak vurgu içeriri. Html bunu ayırmak için iki farklı kod kullanır.<i> burada yalnızca görsel olarak vurgulanmak istenen şeyi belirtiriz.</i> <em>burada ise sözsel vurgu için kullanılan italik vardır.</em> Okuyucu bunu farkedebilir. Bir örnek daha verelim burda favori kelimesi sözel bir vurgu ifade ederken kahve ifadesi görsel bir vurgudan ibarettir.Doğru olan da budur. Şimdi cümleyi yazalım: "Ben <em>favori</em> içeceğim olan <i>kahveyi</i> spariş ettim. "</p>
+<p> Bu vurgulşar içeriği dinleyenler için çok iyi sonuçlar vermektedir. Yanı kolaya kaçıp sadece birini kullanmak pek de kaliteli olmaz.</p>
+<p> Sıra geldi <strong>Kalın ifadelere</strong> Burada da görüldüğü gibi strong ifadesi oldukça çok dikkat çekmek için kullanılmaktadır. Bununda iki formu var. İkincisi ise <bold>şelinde yazılan dikkat çekmeyen, tarayıcı veya okuyucuyla ekstra bir anlam ifade etmek istemediğimizde </b> bunu kullanabiliriz. Öneri ise son çare olarak kullanmaktır.😉</p>
+<p> Bu eğitimi bitirmek için kendime 24 saat vermiştim sonrasında da eğitime ulaşamayacağım zaten.Lİnkedinde çünki. Neyse. Şöyleki daha 90 dk çalıştım ve sadece bu kadarı bitti. Birsürü özellik var daha. Yani yarım kalırsa yapacak bir şey yok. </p>
+<h4> <strong>Listelere</strong> Gelelim</h4>
+<p>(burda strong ifadesi işe yaramadı gibi neden bilmiyorum ama bir noktada çözülecektir herhalde.)</p>
+<p> Liste örneğinden ilerleyelim:
+  patates
+  soğan
+  domates
+  bunlar yanyana yazıl görünüyor.Liste gibi değil.Bunun için ;aşağıdaki li tagını kullanırız.Liste ögesi demektir.
+  <li>patates</li>
+  <li>soğan</li>
+  <li>domates</li>
+</p>
+<p>
+<h4>sırasız(ama listeli) liste için ul kullanırız.(Düşük bir cümle kabul.)</h4>
+<ul>
+  <li>patates</li>
+  <li>soğan</li>
+  <li>domates</li>
+</ul>
+</p>
+<p>
+<h4>Sıralı liste için ol kullanılır.</h4>
+<ol>
+  <li>patates</li>
+  <li>soğan</li>
+  <li>domates</li>
+</ol>
+</p>
+<p><strong>definition term,dt.</strong> Bunu kullanarak bir terimi ve bunun açıklamasını listeleyebiliriz. Açıklama için <strong>definition discription,dd </strong>kullanılır.
+  Tüm bu liste<strong> dl,definition list </strong>e sarılır.</p>
+<p>
+<dl>
+  <dt>
+    <li>Örnek olarak:</li>
+  </dt>
+  <dd>Bu cümleyi veriyorum.</dd>
+  <dt>
+    <li>Başka bir örnek de:</li>
+  </dt>
+  <dd>Bu cümledir."li" kısmı obsiyoneldir.Çıkartılırsa baştaki işaret kaldırılabilir.</dd>
+</dl>
+</p>
+
+<h4>Alıntılar</h4>
+<blockquote>
+  <p>Bu paragrafın bir alıntı olduğunu varsayıyoruz. Blockquote etiketi ile metnin bir alıntı olduğunu belirtmek için metni birkaç boşluk içieriden başlatıyor. Blok bağlamı yapıyor. Bunun işlevini p(paragraf) etiketine benzetebilirsiniz ancak aynı şey değiller. Bu alıntı şekli alıntının metin içinde geçmesi durumunda pek de işimiz yaramaz bu nedenle başka bir alıntı şekline bakalım.
+    <cite>-Yazar</cite> =bu metnin bir alıntı olduğunu göstermekte.
+  </p>
+</blockquote>
+<p>
+  Bu metinle paragraf içindeki bir alıntıyı nasıl gösterebileceğimize bakabiliriz. Tırnakk işareti kullanmak bir çözüm olabilir. Bunu manuel olarak yazmak yerine q(Quote) etiketi kullanılabilir. <q>Bunun bir alıntı cümlesi olduğunu varsayalım. <cite>-Yazar</cite> </q>Böylece metni bölmeden alıntıyı belirtebilmiş oluyoruz.
+</p>
+<h5>Tarihler ve Saatler</h5>
+<p> Tarihler için time tagını kullanabiliriz.<time>15 EKİM 2023</time> bunun farklı versiyornlarını da kullanmamızda bir sorun olmaz.
+</p>
+<p>Gelelim asıl saatin bilgisayar tarafından farkedilir olmasına. Bunun için bir formattan bahsedelim."elementname attributename='' " bu formüle göre <time datetime="2023-04-02"> 2 Nisan, 2023 </time> şeklinde tarihi belirtebiliriz. <strong>peki ya saatler</strong> Saatlerde nasıl yaparız. Yine aynı format. <time dateime="05:15"> 5:15 am</time> gibi yazabiliriz. Dikkat etmeliyiz ki günü 24 saat şeklinde ifade etmeliyiz. <time datetime="12:30"> halfpast noon </time> gibi. Peki saatlerin farklı olduğu anlar için ne yapılabilir. Meseleyi şöyle açıklayayım.<time datetime="23:30-05:00">6:30 pm in New York </time>gibi .
+  <strong>hem saat hem de tarih belirtmemiz gerekirse ne yapacağız</strong>
+  Bunun için ideal şekilde formattan yararlanabiliriz.
+  iki birim arasına T koyabiliriz veya araya bir boşluk bırakırız. Bunun gibi:
+  <ime datetime="2023-10-15 21:00">Sunday, Oct 15th at 9p</time> . Datetime özniteliğinde zamanı konuma göre semantik olarak ilerlettiğimizde bilgisayar bunu anlayabilir.
+</p>
+<h3>Metnimizin içine bir Code eklemek istersek</h3>
+<p>
+  Örneğin buradabir metin için başlık atmayı göstereceğim ancak <strong> yazdığımda bunu işlediğini görüyorum.</strong> Bunu engellemek için <code>{if(color=m01a05s;)}</code> yazısına yaptığı gibi yapmak işe yaramaz.(Burası da kodları metin gibi görünmekten kurtarmanın başka bir yoludur.) Peki burdaki code yazılarını göstermek için ne yapacağız. Burda HTML ENTİTİES (html varlığı) denilen şeylerden kullanırız. &lt; küçüktür, &gt; büyüktür işaretine kullanılır.
+  Bu şekilde yazarsak kodumuzu işlemeden metin olarak ifade edebiliriz.Birkaç örnek listeleyelim:
+  <li>&lt;code&gt;</li>
+  <li><code>&lt;code&gt;</code></li>
+</p>
+<h4>Boşlukları ve satır aralarını göremiyorum!(ANLAMSAL BİÇİMLENDİRME)</h4>
+<p>
+  Bu durum oldukça doğaldır. Tarayıcı boşlukları atlar. İhtiyaç duyduğumuzda ,örneğin bir şiir eklememiz gerektiğinde ne yapacağız o zaman? Satır sonu eklemek için &lt;br&gt;(break line) kullanabiliriz.<br>
+  Bu tag için açılş ve kapanış eklememiz gerekmez. <br>
+  Tek bir etikettir.<br>
+  Satır sonuna koymamız yeterlidir.<br>
+  <br>
+  iki paragraf arasında tek başına da kullanılabilir.<br>
+  Yine de bazı durumlarda r etiketi yeterli gelmeyebilir; kelimeler arası boşlukla, satır başlama boşlukları gibi. Yine bir şiirden örnek verelim:<br>
+  Şiirimiz
+  oldukça
+  dağınık yazılmış
+  bir şiir
+  olsun.
+  <br>
+  Metin gibi görünüyor. Bunu düzeltmek için (boşluğu içeriğin içine koymak için) bir ön etiketle sağlarız.&lt;pre&gt; etiketi ile tarayıcının etiket açılış ve kapanışı arasındaki her boşluğu dikkate almasını sağlamış oluruz.<br>
+  Bu etiket adı üstünde bir ön etiket yani başa koymalıyız.Şimdi şiirimizde deneyelim.<br>
+<pre>
+  Şiirimiz
+           oldukça 
+  dağınık          yazılmış
+        bir                 şiir
+  olsun.
+  </pre><br>
+göründüğü gibi.
+<pre>
+  <code>
+  bazen     {codes;
+                &lt; ve daha fazlası;&gt;
+                            için gerekli ifadelerde birleştirilebilir;
+                            }
+                            </code>
+                            </pre>
+</p>
+<h3>ALT VE ÜST SİMGELER ,KÜÇÜK METİNLER</h3>
+<p>
+  Dipnotlar, matematiksel işlemlerde sayı üsleri, Kimyada molekül isimleri vb.<br>
+  bu durumlar için subscripts &lt;sub&gt;ve superscripts&lt;sup&gt; kullanılır.<br>
+
+  H<sub>2</sub>O, footnote<sup>3</sup><br>
+  küçük metinler,ayrıntılar için &lt;small&gt; kullanılır.<br>
+  <small> (Matematiksel işlemler için MathML daha sağlam yapıdadır.)</small><br>
+
+</p>
+<h4>GLOBAL ATTRIBUTE</h4>
+
+<p>
+  Genel özniteliklerden birkaçını buraya not düşelim.
+  <li>&lt;p class="intro"&gt; bu öge ile sınıflandırdığımız bir veriyi CSSde 'şu sınıfa uygula' gibi kolaylıklar için uygulayabiliriz.(p etiketini kapatmayı unutmayın)
+  </li><br>
+  <li>
+    &lt;p class="intro" id="article-intro"&gt; bu öge de bir kez benzersiz bir ad tanımlamamızı sağlar.JS de belli bir bağlantıyı adreslemek için kullanılabilir.(p etiketini kapatmayı unutmayın)
+  </li><br>
+  <li>
+    &lt;p lang="en-GB"&gt; bu öge ile metinde yer alan dilin British English dilinde yazıldığını dillerin kısa ifadesiyle bildirmiş olduk.
+  </li><br>
+  <li>
+    &lt;p dir="ltr"&gt; bu öge dilin yazılış <i>yönünü</i> left to right (soldan sağa) şeklinde olduğunu, &lt;p dir="rtl"&gt; ise sağdan sola (right to left)olduğunu belirtmemizi sağlar.
+  </li><br>
+  
+</p>
+<p> width ile:</p>
+<img width="250" src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=600"></img>
+<p> height ile:</p>
+<img height="250" src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=600"></img>
+<p> Resim bulunamadı hatası eklendiğinde:</p>
+<img alt="Resim bulunamadı!" height="250" src="https://images.pexes.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w"></img>
+<li>
+  _ResimGibi_ekleme_yapılabilir.
+  <br>
+  <img height="250" src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=600"></img>
+</li>
+<br>
+<h3>TABLO OLUŞTURMA</h3>
+<p>Tablo oluştururken -tr- ile satır eklenir.</p>
+<p>-td-  ile satır elemanı eklenir.</p>
+<p>-th- ile sütun başlığı eklenir.</p>
+<p>-caption- ile tabloya başlık eklenir.</p>
+<table>
+  <caption>Tablo Başlığı</caption>
+  <th>1.Sütun</th>
+  <th>2.Sütun</th>
+  <th>3.Sütun</th>
+  <tr>
+    <td>[1,1]</td>
+    <td>[1,2]</td>
+    <td>[1,3]</td>
+  </tr>
+  <tr>
+    <td>[2,1]</td>
+    <td>[2,2]</td>
+    <td>[2,3]</td>
+  </tr>
+  <tr>
+    <td>[3,1]</td>
+    <td>[3,2]</td>
+    <td>[3,3]</td>
+  </tr>
+</table>
+
+</body>
+</html>
