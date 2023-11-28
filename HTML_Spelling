@@ -1,23 +1,36 @@
 <html>
   <head>
-    
+    <h1>👋 Hello Hypertext Markup Language!</h1>
   </head>
   <body>
-<h1>👋 Hello World!</h1>
+
 <h1>Bu bir başlık.</h1>
 <article> Bu bir makale </article>
 
-<p>Bu paragrafta <m> ne olduğunu öğrenmediğim bir tag </m> bulunuyor.</p>
+
 <h3>Başlık boyutu olarak seviyeleri bulunur. Bu seviyeler 6 tanedir.</h3>
+    
 <h6> Başlıklar ve boyutlarını makaleye göre ayarlarız.</h6>
+    
 <p> Bir sitede başlıkları düzenli bir sistemde tasarlamak ekran okuyucsu için büyük önem arzeder. Bunun gibi tasarımsal kaygılar nedeniyle çalışanlar temel bir tasarım seçimiyle sitenin daha bir bütün ve semantik başarıya ulaşmasını sağlar. Estetik ve bütün bir görüntü için önemlidir. Kendi web siten için de bir tasarım ve belli kurallar çerçevesinde bütün oluşturursan daha profesyonel duracaktır.</p>
+    
 <h4>Sıra italik ve kalınlıkta.</h4>
-<p> Bunlar vurgu ifadesidir. Kimi sözlü vurgu içerir kimi ise görsel olarak vurgu içeriri. Html bunu ayırmak için iki farklı kod kullanır.<i> burada yalnızca görsel olarak vurgulanmak istenen şeyi belirtiriz.</i> <em>burada ise sözsel vurgu için kullanılan italik vardır.</em> Okuyucu bunu farkedebilir. Bir örnek daha verelim burda favori kelimesi sözel bir vurgu ifade ederken kahve ifadesi görsel bir vurgudan ibarettir.Doğru olan da budur. Şimdi cümleyi yazalım: "Ben <em>favori</em> içeceğim olan <i>kahveyi</i> spariş ettim. "</p>
+    
+<p> Bunlar vurgu ifadesidir. Kimi sözlü vurgu içerir kimi ise görsel olarak vurgu içeriri. Html bunu ayırmak için iki farklı kod kullanır.
+  <i> burada yalnızca görsel olarak vurgulanmak istenen şeyi belirtiriz.</i> 
+  <em>burada ise sözsel vurgu için kullanılan italik vardır.</em>
+  Okuyucu bunu farkedebilir.
+  Bir örnek daha verelim burda favori kelimesi sözel bir vurgu ifade ederken kahve ifadesi görsel bir vurgudan ibarettir.Doğru olan da budur. Şimdi cümleyi yazalım:
+  "Ben <em>favori</em> içeceğim olan <i>kahveyi</i> spariş ettim. "</p>
+    
 <p> Bu vurgulşar içeriği dinleyenler için çok iyi sonuçlar vermektedir. Yanı kolaya kaçıp sadece birini kullanmak pek de kaliteli olmaz.</p>
-<p> Sıra geldi <strong>Kalın ifadelere</strong> Burada da görüldüğü gibi strong ifadesi oldukça çok dikkat çekmek için kullanılmaktadır. Bununda iki formu var. İkincisi ise <bold>şelinde yazılan dikkat çekmeyen, tarayıcı veya okuyucuyla ekstra bir anlam ifade etmek istemediğimizde </b> bunu kullanabiliriz. Öneri ise son çare olarak kullanmaktır.😉</p>
-<p> Bu eğitimi bitirmek için kendime 24 saat vermiştim sonrasında da eğitime ulaşamayacağım zaten.Lİnkedinde çünki. Neyse. Şöyleki daha 90 dk çalıştım ve sadece bu kadarı bitti. Birsürü özellik var daha. Yani yarım kalırsa yapacak bir şey yok. </p>
+    
+<p> Sıra geldi <strong>Kalın ifadelere</strong> 
+  Burada da görüldüğü gibi strong ifadesi oldukça çok dikkat çekmek için kullanılmaktadır.
+  Bununda iki formu var. İkincisi ise <bold>şelinde yazılan dikkat çekmeyen, tarayıcı veya okuyucuyla ekstra bir anlam ifade etmek istemediğimizde </b> bunu kullanabiliriz. Öneri ise son çare olarak kullanmaktır.😉</p>
+    
 <h4> <strong>Listelere</strong> Gelelim</h4>
-<p>(burda strong ifadesi işe yaramadı gibi neden bilmiyorum ama bir noktada çözülecektir herhalde.)</p>
+<p>(Burda strong ifadesi işe yaramadı gibi neden bilmiyorum ama bir noktada çözülecektir herhalde.)</p>
 <p> Liste örneğinden ilerleyelim:
   patates
   soğan
@@ -117,6 +130,11 @@ göründüğü gibi.
                             </code>
                             </pre>
 </p>
+<p><h3>Matematiksel ifadeler için tag :</h3>
+  &li;m&gt;tagı ile matematiksel ifadeleri kullanabiliriz:<br></p>
+<p>Matematik formülü: <m>x = (-b ± √(b^2 - 4ac)) / 2a</m></p>
+
+</p>
 <h3>ALT VE ÜST SİMGELER ,KÜÇÜK METİNLER</h3>
 <p>
   Dipnotlar, matematiksel işlemlerde sayı üsleri, Kimyada molekül isimleri vb.<br>
@@ -185,6 +203,379 @@ göründüğü gibi.
     <td>[3,3]</td>
   </tr>
 </table>
+<h3>Web sitesine başlık eklemek</h3>
+<p>Bunun için &lt;header&gt; kullanılır:<br>
+<header>Web Sitesi Başlığı</header><br>
+Sayfaya navigasyon tuşları(yönlendirme) ekleyen tag ise &lt;nav&gt;'dır.<br>
+<nav>
+  <ul>
+    <li>Anasayfa</li>
+    <li>Hakkında</li>
+    <li>İletişim</li>
+  </ul>
+</nav>
+<br>
+<article>Tabiiki bunlar CSS ile yukarıya dizilebilir. Bu işlem sonrası eklenen yapıları,sayfanın içeriğini &lt;article&gt; arasına yazarak bir bütün olarak içeriği ekleyebiliriz.<br></article><br>
+Sayfanın en alt kısmına "Sayfanın yetkileri saklıdır." gibi metin eklemek için &lt;footer&gt; kullanılır.<footer>Sayfanın bir yetkisi yoktur... Copyright  &copy;Smnr</footer>
+</p>
+<h3><i>Input</i> almak "Form içinde"</h3>
+<p>
+  &lt;form&gt; ile form alımı yapılabilir. Bu sarım içindeyken:
+  &lt;label&gt; ile input isimlendirilebilir.<br>
+  Giriş için &lt;input name " ... "/&gt; kullanılır.<br>
+  &lt;input name " ... " type="text"/&gt;:girilen metni gösterirken;<br>
+  &lt;input name " ... " type="password"/&gt;:girilen metni gizler.<br>
+  &lt;input type="Submit"/&gt; :gönder butonu ekler.<br>
+  &lt;input name " ... " type="text" required /&gt; : Boşluğun doldurulması gerektiğini söyler.<br>
+  &lt;form action=" göndere bastıktan sonra açılacak sayfanın adresi vb."&gt; :formu gönderince açılacak sayfanın bilgisi girilir.<br>
+   &lt;select&gt; ile seçenekleri olan bir seçim girişi alınabilir.Her seçenek için &lt;option&gt; eklenmelidir.<br>
+  input tarzına göre name tipi belirlenebilir. type grubu değişebilir.<br>
+  "size" seçeneklerin görünümünü sınırlarken verirken "multible" çoklu seçim hakkı verir.<br>
+  "value" ile submit yazısı değitirilebilir.<br>
+  "button" eklendiğinde CSS komutları ile görevlendirme yapılabilir tuşlar elde edilmiş oluyor.<br><br>
+  <form action="https://i.pinimg.com/564x/d5/ca/10/d5ca1047c962a26fcd3cc5b1a04f860f.jpg">
+    <label>İsim:</label>
+      <input name "isim"type="text" required /><br>
+    <label>Şifre:</label>
+      <input name "Şifre" type="password" required /><br>
+    
+    <label>Cinsiyet:</label>
+    <select>
+      <option>Kız</option>
+      <option>Erkek</option>
+      <option>Belirtmek İstemiyorum</option>
+    </select><br>
+     <label >Sevdiğiniz Renk:</label>
+    <select name "color" size="3" multible>
+      <option>Siyah</option>
+      <option>Beyaz</option>
+      <option>Mavi</option>
+      <option>Kırmızı</option>
+      <option>Belirtmek İstemiyorum</option>
+    </select><br><br>
+    <lable>Yorumunuzu girebilirsiniz:</lable><br>
+      <textarea rows="4" cols="50" > </textarea><br>
+     
+    
+    <br><br>
+     <input type="Submit" value="Giriş"/>
+    <button>Çıkış!</button>
+  </form>
+</p>
+<p>
+<h3>YAZI ARKASINI RENKLENDİRELİM !</h3>
+<p>W3Schools.com adresine giderek oradan renkler hakkında fikir sahibi olabilir ve html için bu düzenlemelerin temel kulanımlarını öğrenebilirsiniz.<br>
+  Şimdi burada birkaç arkaplan rengi verilicek aşağıda paragraf renklendirmesi de yapılabildiğine dair bir örnek bulunuyor...
+</p>
 
+<h2 style="background-color:Tomato;">Tomato</h2>
+<h1 style="background-color:Orange;">Orange</h1>
+<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+<h1 style="background-color:Gray;">Gray</h1>
+<h1 style="background-color:SlateBlue;">SlateBlue</h1>
+<h1 style="background-color:Violet;">Violet</h1>
+<h1 style="background-color:LightGray;">LightGray</h1>
+
+<h1 style="background-color:DodgerBlue;">Selam_:)</h1>
+<p style="background-color:Tomato;">P tag ile kullanılan bir arkaplan renklendirmesi bu satırdadır.</p>
+</p>
+<p>
+<h3>YAZIYI RENKLENDİRELİM !</h3>
+
+<h1 style="color:Tomato;">Renkli başlıklar </h1>
+<p style="color:DodgerBlue;">BAŞLIK.</p>
+<p style="color:MediumSeaGreen;">BAŞLIK.</p>
+
+</p>
+<p>
+  <h3>RENKLİ KUTUCUK HALİNE GETİRELİM (BORDER-LİNE)!</h3>
+<h1 style="border:2px solid Tomato;color:DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+</p>
+<p>
+<h3>Saydamlaştırma, tonlama ve renk efektrleri eklemek.</h3>
+<h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+<h1 style="background-color:#ff6347;">#ff6347</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5) 0.5 transparan</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+</p>
+
+<h4 style="color:blue">Attributes</h4>
+<p>
+  Tagların içine özellikler eklememizi sağlayan özelliklerdir.<br>
+  &lt;h3 style= "gibi " &gt; şeklinde ekleniyor.<br>
+  her tagın kendi attribute'leri vardır. Bunlar için hazırlanmış olan web sayfalarından tagların hangi özelliklere sahip olabileceklerini öğrenebiliriz. bunun için güzel bir web sitesi bırakacağım buraya: "https://developer.mozilla.org/en-US/docs/Learn/HTML>"
+</p>
+<h3>Emojiler...</h3>
+<p>
+  span tagı ile emoji ekleyebilir. Span tagına eklenen style="font-size:150px" gibi özellikler ile boyutu ayarlanabilir. Normalde 😃 böyle iken stilli hali:
+ <span style="font-size:150px">😃</span>
+</p>
+<h3 style="color:blue">Ses dosyası eklemek</h3>
+<p>
+  audio tagı ile kullanılır. Bu taga controls attribute eklenerek görünür hale getirebiliriz. içine source src="" tagını ekleyip link ya da dosyayı ekleriz.<br>
+  audio tagına muted eklersek sayfa açıldığında ses kapalı olarak yükler.<br>
+  autoplay eklersek de sayfayı açınca çalmaya başlar.<br>
+  preload="multidata" dediğimizde de tüm dosyayı yükleyip süreyi belirtmek yerine sadece süresini gösterir kullanıcı başlattığında indirir.(daha iyi açıklamalar var kabul ediyorum:))<br>
+  
+  <br>(ses bulamadım dosya ekleyi daha sonra yaparım belki.)<br>
+  <audio controls muted>
+    <source src="https://depositphotos.com/tr/sound-effect/laughter-applause-crowd-original-sound-effect-425423572.html"/>
+  </audio>
+</p><p>
+<h3 style="color:blue">VİDEO EKLEMEK</h3><br>
+controls ekleyerek kontrol edilebilir hale getirdik.<br>
+<video widthz="j640" heightz="480" autoplay muted controls >
+  <source src=" http://commondatastorage.goog1eapis.com/gtv—videos bucket/sample/BigBuckBunny.mp4"
+type=”video/mp411>
+  <source src= "movie. ogg" type=”video/ogg”>
+Your browser does not support the video tag.
+</video>
+</p>
+<p>
+<h3>YOUTUBE VİDEOSU EKLEMEK</h3>
+<iframe weidth="560" height="315" src="https://www.youtube.com/watch?v=fakHTnkZLRc&list=PLWctyKyPphPjm1jnFNsQfOIDgR3wf-prc&index=1" frameborder="9" allowfullscrean></iframe>
+
+</p><p><h3 style="color:blue">JS Eklemek...Garip işler...</h3>
+Anlamak için bir video izlemek daha sağlam olacaktır.<br>
+<button type=”button” onclick="document" getElementById ( ' demo ' ) . innerHTML="Date()">
+  Tarihi ve Zamanı Göster
+</button>
+
+<p id="demo"></p>
+
+<script>
+  document.getElementById("demo").innerHTML = "Hello JavaScript!";
+  document.getElementById("demo").innerHTML = "Hello JavaScript!";
+  document.getElementById("demo").style.fontSize = "25px";
+  document.getElementById("demo").style.color = "red";
+  document.getElementById("demo").style.backgroundColor = "yellow";
+  document.getElementById("image").src = "picture.gif";
+</script>
+</p>
+<p>
+<h3 style="color:blue">Canvas Eklemek...</h3>
+Çizim alanı...<br>
+<canvas id="myCanvas" width="200" height="100"></canvas><br>
+Çizim alanına border eklenince daha belli oldu.<br>
+<canvas id="myCanvas1" width="200" height="100" style="border:1px solid #000000;">
+</canvas><br>
+<canvas id="myCanvas2" width="200" height="100" style="border:1px solid #000000;">
+</canvas><br>
+js ekleyerek çizim oluşturabileceğiz.<br>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(0, 0);
+ctx.lineTo(200, 50);
+ctx.stroke();
+</script>
+<script>
+var c = document.getElementById("myCanvas1");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+ctx.stroke();
+</script>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("Hello World", 10, 50);
+</script>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.strokeText("Hello World", 11, 51);
+</script>
+<script>
+var c = document.getElementById("myCanvas1");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createLinearGradient(0, 0, 200, 0);
+grd.addColorStop(0, "red");
+grd.addColorStop(1, "white");
+
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10, 10, 150, 80);
+</script>
+<script>
+var c = document.getElementById("myCanvas2");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+grd.addColorStop(0, "red");
+grd.addColorStop(1, "white");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10, 10, 150, 80);
+</script>
+<script>
+var c = document.getElementById("myCanvas2");
+var ctx = c.getContext("2d");
+var img = document.getElementById("scream");
+ctx.drawImage(img, 10, 10);
+</script>
+</p>
+<p>
+  <h3>SVG EKLEMEK_CANVASTAN BİR ADIM İLERİYE...</h3>
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+
+</svg>
+<svg width="400" height="100">
+  <rect width="200" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+</svg><br>
+<svg width="400" height="180">
+  <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+  style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+</svg><br>
+<svg width="300" height="200">
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+</svg><br>
+<svg height="130" width="500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SELAM</text>
+  Sorry, your browser does not support inline SVG.
+
+</svg>
+</p>
+<h3>Drop-Drag eklemek</h3>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+  function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+  
+}
+   function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<img id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">
+  <img draggable="true">
+<event class="preventDefault"></event>
+
+<style>
+#div1, #div2 {
+  float: left;
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+</style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+
+<h2>Drag and Drop</h2>
+<p>Drag the image back and forth between the two div elements.</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="img_w3slogo.gif" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+</div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+  <br><p><h3>Konum almak...</h3></p><br>
+<script>
+constx = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+  function showError(error) {
+  switch(error.code) {
+    case error.PERMISSION_DENIED:
+      x.innerHTML = "User denied the request for Geolocation."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML = "Location information is unavailable."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML = "The request to get user location timed out."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML = "An unknown error occurred."
+      break;
+  }
+}
+</script>
+<script>
+const x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.watchPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+<br>
+<p>Localstoriage galiba ama eklemedim buraya sayaç geçici hafıza olayı...</p>
 </body>
 </html>
